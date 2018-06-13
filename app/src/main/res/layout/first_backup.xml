@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_green_100">
+    <Button
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_html"
+        android:id="@+id/jsonBtn"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="YEDEKLE"
+        android:id="@+id/orta"
+        android:background="@drawable/orta"
+        android:backgroundTint="#1f946c"
+        android:textColor="#FFF"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/jsonBtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_json"
+        android:id="@+id/circle_json"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_alignTop="@+id/jsonBtn"
+        android:layout_toLeftOf="@+id/jsonBtn"
+        android:layout_toStartOf="@+id/jsonBtn"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_xml"
+        android:id="@+id/button2"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@+id/circle_json"
+        android:layout_toRightOf="@+id/jsonBtn"
+        android:layout_toEndOf="@+id/jsonBtn" />
+
+
+</RelativeLayout>

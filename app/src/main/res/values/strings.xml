@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name"><![CDATA[uBackup & Restore]]></string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="title_activity_forgot">ForgotPassActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="facebook_app_id">Your facebook app id</string>
+    <string name="action_settings">Intro</string>
+    <string name="Hello">Welcome. If you want to make backups,you need to do print format you want from the button below. Find the backed up files in folders that uBackup on the memory card is possible. For ad-free to continue the program, please give rating on Google Play.</string>
+    <string name="mail">Sending Mail is not active yet</string>
+    <string name="openApp">Select App for Open...</string>
+    <string name="baslik">Backup List (Storage in uBackup Folder)</string>
+    <string name="finishtoast">Backup files by date and time shown on the following list.</string>
+    <string name="progressMessage">Updating Backup List...</string>
+    <string name="appTourDoneButton">Done</string>
+    <string name="appTourNextButton">Next</string>
+    <string name="appTourSkipButton">Skip</string>
+    <string name="customFragment">Very soon we will be with you with this feature ...</string>
+    <string name="firsttouch">One Touch</string>
+    <string name="firstDesc">It has never been easy to backup your SMS ever get a touch.</string>
+    <string name="multiformat">Multi-format Support</string>
+    <string name="multiDesc">We dont restrict you to a single format, you can take backup in the desired format.</string>
+    <string name="innovator">Innovator</string>
+    <string name="innovaDesc">You can view your output in HTML format, such as SMS and receive a website.</string>
+    <string name="onFeature">Making Thought Features</string>
+    <string name="firstFeature">Taken backup to restore ( All Format ) </string>
+    <string name="secondFeature">Sending sms backup to mail</string>
+    <string name="thirdFeature">Contacts list to take backup</string>
+    <string name="fourthFeature">More format options</string>
+    <string name="loading">Loading...</string>
+    <string name="cancel">Cancel</string>
+    <string name="jsonshowcase">JSON format is the quickest and easiest formatter. this is the best option if you want to backup only. The restoration process can now only in json format.</string>
+    <string name="gotit">GOT IT</string>
+    <string name="htmlshowcase">You can see in your file that you receive sms backup as if the website in HTML format. This option is not yet possible to restore.</string>
+    <string name="xmlshowcase">XML is a standard format, you can choose it if you want. Pressing one of these three buttons you need to do to obtain a replacement. This option is not yet possible to restore.</string>
+    <string name="restore">Restore</string>
+    <string name="open">Open</string>
+    <string name="whatwant">What do you want to do?</string>
+    <string name="ifactive">This format is not yet active, you can make a backup with json format...</string>
+    <string name="noexternal">No one valid memory, You  can try to transfer to the cloud in a future release</string>
+    <string name="appPermission">It is not allowed to use the application. Please give the necessary permission in settings...</string>
+    <string name="finishRestore">The restore process has been completed successfully.</string>
+    <string name="selectDefault">Do not forget Choose the default SMS application uBackup when you restore the backup file. If you do not select the restore process will be made according to Android security.</string>
+    <string name="fourthSlide">You must select the default SMS application to restore the backup. When the restore is finished, you can automatically allow the transition from SMS applications.</string>
+    <string name="fourthTitle">Android Security Setting</string>
+    <string name="uygulamaName"><![CDATA[uBackup & Restore]]></string>
+    <string name="claimTranslate">Translation Request</string>
+    <string name="sendMail">Contact us</string>
+    <string name="yourViews">Your views</string>
+    <string name="addLanguage">Enter the language you want to add</string>
+    <string name="send">Send</string>
+    <string name="thanksmessage">Thanks, has been forwarded</string>
+    <string name="notdelivered">Your message could not be delivered</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

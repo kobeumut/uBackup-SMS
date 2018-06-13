@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BackupActivity" >
+    <item android:id="@+id/action_sil"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/ctranslate"
+        android:title="@string/claimTranslate"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/mail"
+        android:title="@string/sendMail"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/login"
+        android:title="Login/Register"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

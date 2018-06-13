@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:background="#f1d7eeff"
+    android:orientation="vertical"
+    android:paddingLeft="7dip"
+    android:paddingTop="7dip"
+    android:paddingRight="7dip"
+    android:paddingBottom="7dip"
+    android:isScrollContainer="true" >
+
+    <EditText
+        android:id="@+id/edit_pop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:ems="10"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:hint="Your Views"
+        android:imeOptions="actionDone">
+    <requestFocus />
+    </EditText>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:gravity="bottom">
+    <Button
+        android:id="@+id/btok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        />
+
+    <Button
+        android:id="@+id/btcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</LinearLayout>
