@@ -26,22 +26,22 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.firebase:firebase-core:15.0.0'
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
 
-    compile 'com.android.support:appcompat-v7:27.1.1'
-    compile 'com.android.support:design:27.1.1'
-    //compile 'io.realm:realm-android:0.87.1'
-    compile 'com.android.support:cardview-v7:27.1.1'
-    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta3'
-    compile 'com.github.deano2390:MaterialShowcaseView:1.0.6'
-    compile 'com.vlonjatg.android:app-tour:1.0'
-    compile 'com.github.kayvannj:PermissionUtils:1.0.2@aar'
-    compile 'com.github.iammert:ProgressLayout:a2ac196500'
-    compile 'com.android.support:recyclerview-v7:27.1.1'
-    //compile 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    //implementation 'io.realm:realm-android:0.87.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.github.deano2390:MaterialShowcaseView:1.0.6'
+    implementation 'com.vlonjatg.android:app-tour:1.0'
+    implementation 'com.github.kayvannj:PermissionUtils:1.0.2@aar'
+    implementation 'com.github.iammert:ProgressLayout:a2ac196500'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    //implementation 'com.jakewharton:butterknife:7.0.1'
 }
 
 
